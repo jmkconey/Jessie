@@ -28,7 +28,8 @@ body {
 h3{
   text-decoration: underline;
 }
-@media (min-width 769px){
-    container width: 70%; 
-    margin:0 auto
+ @media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
 }
